@@ -416,6 +416,10 @@ h1,h2,h3,h4{
         width : 90%; 
         left: 0;
     }
+    .para{
+        line-height: 1.3;
+    }
+    
     .hero-img-overlay .para:first-child {
         margin: 0;
         margin-bottom: 1rem;
