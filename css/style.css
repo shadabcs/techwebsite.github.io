@@ -344,6 +344,9 @@ h1,h2,h3,h4{
     .container {
         max-width: 72rem;
     }
+    html {
+        font-size: 56.25%;
+    }
     .hero-image img{
         width: 90%;
     }
@@ -352,7 +355,77 @@ h1,h2,h3,h4{
         width : 105%; 
         left: -55px;
     }
+    .section-hero{
+        padding-top: 4rem;
+    }
     .section-hero::before{
         height: 24%;
+    }
+}
+
+@media (max-width: 480px) {
+    .container {
+        max-width: 62.85rem;
+        padding: 0 2.85rem;
+    }
+    html {
+        font-size: 43.75%;
+    }
+    .primary-heading {
+        font-size: 4rem;
+    }
+    .hero-image img{
+        width: 83%;
+    }
+    .hero-img-overlay {
+        padding: 2rem;
+        width : 100%; 
+        left: -5rem;
+    }
+    .section-hero{
+        padding-top: 4rem;
+    }
+    .section-hero::before{
+        height: 24%;
+    }
+}
+
+@media (max-width: 480px) {
+    .container {
+        max-width: 62.85rem;
+        padding: 0 2.85rem;
+    }
+    html {
+        font-size: 37.5%;
+    }
+    .header{
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+    .logo{
+        font-size: 3rem;
+    }
+    .primary-heading {
+        font-size: 3.5rem;
+    }
+    .hero-image img{
+        width: 83%;
+    }
+    .hero-img-overlay {
+        padding: 2rem;
+        width : 90%; 
+        left: 0;
+    }
+    .hero-img-overlay .para:first-child {
+        margin: 0;
+        margin-bottom: 1rem;
+        font-size: 1.5rem;
+    }
+   
+    .section-hero{
+        padding-top: 4rem;
+    }
+    .section-hero::before{
+        height: 22%;
     }
 }
