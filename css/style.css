@@ -390,7 +390,7 @@ h1,h2,h3,h4{
     }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 380px) {
     .container {
         max-width: 62.85rem;
         padding: 0 2.85rem;
